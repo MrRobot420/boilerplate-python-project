@@ -1,3 +1,6 @@
+[![Unit Tests](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml/badge.svg)](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml)
+[![Linting](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml/badge.svg)](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml)
+
 # Boilerplate Python Project
 
 This is a boilerplate Python project that can be used to quickly get started with a new project.
