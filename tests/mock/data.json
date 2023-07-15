@@ -1,0 +1,25 @@
+{
+    "OPEN_AI": {
+        "RESPONSE": {
+            "id": "cmpl-3QJ5z1J5X7Z5QJ5z1J5X7Z5Q",
+            "created": 1628666928,
+            "model": "davinci:2020-05-03",
+            "object": "text_completion",
+            "usage": {
+                "completion_tokens": 5,
+                "prompt_tokens": 2,
+                "total_tokens": 7
+            },
+            "choices": [
+                {
+                    "index": 0,
+                    "finish_reason": "length",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Yes, I know Dalle-2. It's a new model from OpenAI."
+                    }
+                }
+            ]
+        }
+    }
+}
