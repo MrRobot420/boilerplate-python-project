@@ -1,5 +1,4 @@
-[![Unit Tests](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml/badge.svg)](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml)
-[![Linting](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml/badge.svg)](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml)
+[![Tests](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/MrRobot420/boilerplate-python-project/actions/workflows/unittest.yml)
 
 # Boilerplate Python Project
 
