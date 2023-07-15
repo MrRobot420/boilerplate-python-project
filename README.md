@@ -21,12 +21,48 @@ It includes:
 
 It also includes a Dockerfile for building a Docker image that can be used to run the project.
 
-## Setup the pre-commit hook
+## Installation
 
-To setup the pre-commit hook run the following command:
+The first thing to do is to clone the repository:
 
 ```bash
-ln -s scripts/pre-commit.sh .git/hooks/pre-commit
+$ git clone git@github.com:MrRobot420/openai-api.git
 ```
 
-Now everytime you commit the projects tests and linting and formatting checks will be run.
+Create a virtual environment to install dependencies in and activate it:
+
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+```
+
+Then install the dependencies:
+
+```bash
+(.venv) $ pip install -r requirements.txt
+```
+
+### Pre-Commit Hook
+
+In order to install the pre-commit hook, run the following command:
+
+```bash
+pre-commit install
+```
+
+The will now run the script `pre-commit.sh` before every commit from now on.
+You can find it in the `/scripts` folder.
+
+It will run:
+
+-   `unittests`
+-   `pylint`
+-   `mypy`
+
+You can try it out by running:
+
+```bash
+pre-commit run --all-files
+```
+
+Enable the `-v` flag inside the .pre-commit-config.yaml file to see the verbose output of the script.
